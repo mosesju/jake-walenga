@@ -1,0 +1,23 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title> Insert Statistics </title>
+</head>
+<body>
+    <h1>Insert Stats</h1>
+    <form action="insertStats.php" method = "post">
+        <input type=date name="date" placeholder = "date YYYY-MM-DD"/>
+        <input type=text name="pID" placeholder = "Player ID"/><br/>
+        <input type=number name="kill" placeholder="Kills"/>
+        <input type=number name="err" placeholder="Errors"/>
+        <input type=number name="att" placeholder="Attempts"/><br/>
+        <input type=number name="ace" placeholder="Aces"/>
+        <input type=number name="blk" placeholder="Blocks"/><br/>
+        <input type=text name="pRate" placeholder="Passer rating"/>
+        <input type=number name="ass" placeholder="Assists"/><br/>
+        
+        <input type=submit value="Submit"/>
+    </form>
+    <a href="statCheck.php">Back to Check Stats</a>
+</body>
+</html>

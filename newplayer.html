@@ -1,0 +1,37 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>Enter new Player</title>
+</head>
+<body>
+    <h1>Enter Player Information</h1>
+    <form action="newplayer.php" method = "post">
+        <input type=number name="jNum" placeholder="Jersey Number"/><br/>
+        <input type=date name="date"/><br/>
+        <input type=text name="fName" placeholder="First Name"/>
+        <input type=text name="lName" placeholder="Last Name"/><br/>
+        <select name="class">
+            <option value="fman">Freshman</option>
+            <option value="soph">Sophomore</option>
+            <option value="jun">Junior</option>
+            <option value="sen">Senior</option>
+            <option value="rfman">Redshirt Freshman</option>
+            <option value="rsoph">Redshirt Sophomore</option>
+            <option value="rjun">Redshirt Junior</option>
+            <option value="rsen">Redshirt Senior</option>
+        </select> 
+        <select name = "pos">
+            <option value="oh">Outside Hitter</option>
+            <option value="lib">Libero</option>
+            <option value="opp">Opposite</option>
+            <option value="mb">Middle Blocker</option>
+            <option value="set">Setter</option>
+        </select>
+        <input type=number name="height" placeholder="Height in inches"/><br/>
+        <input type=number name="reach" placeholder="Reach in inches"/><br/>
+        <input type=submit value="Submit"/><br/>
+        <input type=reset value="Reset"/><br/>
+    </form>
+<a href="roster.php">Back to Roster</a>
+</body>
+</html>
